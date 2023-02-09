@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6840b277158451b6e579994039872ea6",
+    "content-hash": "856e0f1ff10d93ec79eac8f052e0c5d1",
     "packages": [
         {
             "name": "cakephp/core",
@@ -793,16 +793,16 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.3.8.1",
+            "version": "4.3.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/craftcms/cms.git",
-                "reference": "c121d8026a19f431776f9410ebfc65adcdd8231b"
+                "reference": "a75b1b09e4b6c50f0783b86b2e7dacd0682d75da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/c121d8026a19f431776f9410ebfc65adcdd8231b",
-                "reference": "c121d8026a19f431776f9410ebfc65adcdd8231b",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/a75b1b09e4b6c50f0783b86b2e7dacd0682d75da",
+                "reference": "a75b1b09e4b6c50f0783b86b2e7dacd0682d75da",
                 "shasum": ""
             },
             "require": {
@@ -907,7 +907,7 @@
                 "rss": "https://github.com/craftcms/cms/releases.atom",
                 "source": "https://github.com/craftcms/cms"
             },
-            "time": "2023-02-08T12:19:14+00:00"
+            "time": "2023-02-09T00:17:53+00:00"
         },
         {
             "name": "craftcms/feed-me",
@@ -1128,6 +1128,75 @@
                 "source": "https://github.com/craftcms/server-check"
             },
             "time": "2022-04-17T02:14:46+00:00"
+        },
+        {
+            "name": "craftquest/buggy",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CraftQuest/craft-buggy.git",
+                "reference": "067037c46a4ba27f5d8fe41074b9db4df1c0796e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CraftQuest/craft-buggy/zipball/067037c46a4ba27f5d8fe41074b9db4df1c0796e",
+                "reference": "067037c46a4ba27f5d8fe41074b9db4df1c0796e",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0"
+            },
+            "require-dev": {
+                "codeception/codeception": "^3.0",
+                "craftcms/cms": "^4.0.0",
+                "vlucas/phpdotenv": "^3.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Buggy",
+                "handle": "buggy",
+                "developer": "CraftQuest",
+                "developerUrl": "https://craftquest.io",
+                "documentationUrl": "https://github.com/ryanirelan/buggy/blob/master/README.md",
+                "changelogUrl": "https://raw.githubusercontent.com/ryanirelan/buggy/master/CHANGELOG.md",
+                "components": {
+                    "buggyService": "craftquest\\buggy\\services\\BuggyService"
+                },
+                "class": "craftquest\\buggy\\Buggy"
+            },
+            "autoload": {
+                "psr-4": {
+                    "craftquest\\buggy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CraftQuest",
+                    "homepage": "https://craftquest.io"
+                }
+            ],
+            "description": "Put bugs in your control panel and then learn how to use Xdebug via CraftQuest.",
+            "keywords": [
+                "Craft",
+                "Xdebug",
+                "buggy",
+                "bugs",
+                "cms",
+                "control panel",
+                "craft-plugin",
+                "craftcms",
+                "debugging"
+            ],
+            "support": {
+                "docs": "https://github.com/ryanirelan/buggy/blob/v2/README.md",
+                "issues": "https://github.com/ryanirelan/buggy/issues",
+                "source": "https://github.com/CraftQuest/craft-buggy/tree/2.0.0"
+            },
+            "time": "2022-07-14T17:12:39+00:00"
         },
         {
             "name": "creocoder/yii2-nested-sets",

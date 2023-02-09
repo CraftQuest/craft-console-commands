@@ -2,10 +2,11 @@
   "require": {
     "craftcms/cms": "^4.3.8",
     "craftcms/feed-me": "^5.0",
+    "craftquest/buggy": "*",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
-    "nystudio107/craft-autocomplete": "^1.11.0"
+    "nystudio107/craft-autocomplete": "*"
   },
   "autoload": {
     "psr-4": {
